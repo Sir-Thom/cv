@@ -1,0 +1,60 @@
+
+
+body{
+    padding-bottom: 70px; 
+    font-family: firacode;
+    background-color: #16191b;
+
+}
+@font-face {
+    font-family: firacode;
+    src: url(/font/FiraCode-VariableFont_wght.ttf);
+}
+#about{
+    margin-top: 4rem;
+}
+.navbar-fixed-top,
+.navbar-fixed-bottom {
+  position: fixed; /* <-- Look here */
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.box{
+
+    font-family: firacode;
+    color: #EAEAEA;
+    box-shadow: 0px 4px 8px #e7e7e7a5;
+    background-color: #212529;
+    padding: 2rem 2rem 2rem 2rem ;
+}
+
+#subtitle{
+   font-family: firacode;
+    font-size:25pt;
+}
+#name{
+    font-family: firacode;
+    font-size:20pt;
+    color: #a4d8fc;
+}
+.top2{
+    margin-top:2rem;
+}
+#skill{
+    font-family: firacode;
+    margin-bottom:2rem;
+}
+#aboutMetxt{
+    font-size: 12pt;
+    font-family: firacode;
+    text-align: justify;
+}
+#skill_section{
+    font-family: firacode; 
+}
+/*#python{
+margin: auto;
+width: 60%;
+}*/
